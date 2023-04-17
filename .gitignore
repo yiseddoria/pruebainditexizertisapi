@@ -35,11 +35,6 @@ Gradle
 # Ignorar la configuración de la GUI de Gradle
 gradle-app.setting
 
-# Evite ignorar el archivo jar contenedor de Gradle (los archivos .jar generalmente se ignoran)
-!gradle-wrapper.jar
-
-# Evite ignorar las propiedades del contenedor de Gradle
-!gradle-wrapper.propiedades
 
 # Caché del proyecto
 .gradletasknamecache
