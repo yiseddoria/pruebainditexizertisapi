@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+group 'co.com.inditex'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'com.intuit.karate', name: 'karate-core', version: '1.2.0'
+    implementation group: 'com.intuit.karate', name: 'karate-junit4', version: '1.2.0'
+    implementation group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1'
+}
+
+test {
+    useJUnitPlatform()
+}
