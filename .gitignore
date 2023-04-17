@@ -57,4 +57,3 @@ gradle-app.setting
 # Fin de https://www.toptal.com/developers/gitignore/api/gradle,java
 
 .idea
-.gradle
